@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+html {
+  overflow: hidden;
+  user-select: none;
+}
+
+#menu {
+  transition: 1s all ease;
+  cursor: pointer;
+}
+#menu > div:hover {
+  color: red;
+}
+
+button {
+  cursor: pointer;
+}
